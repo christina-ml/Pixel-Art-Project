@@ -1,0 +1,72 @@
+body {
+    text-align: center;
+    background-color: white;
+    width: 700px;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Brush Script MT';
+    font-size: 70px;
+    color: white;
+    background: linear-gradient(120deg, lightpink, hotpink, orange, teal, aqua, blue, purple, violet);
+    margin: 0.2em;
+    border: 20px solid;
+    border-image: url(border1.png) 50 stretch;
+    background-clip: content-box;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: white;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
+
+
+/* Hover color and mouse cursors changed to a pointer finger */
+input[type=color]:hover {
+    box-shadow: 0px 0px 10px 5px hotpink;
+    cursor: pointer;
+}
+
+table:hover {
+    cursor: pointer;
+}
+
+
+/* 
+Info/urls:
+text background color: https://developer.mozilla.org/en-US/docs/Web/CSS/background-clip
+box shadows: https://www.w3schools.com/cssref/css3_pr_box-shadow.asp
+
+CSS cursors: https://css-tricks.com/using-css-cursors/
+
+Other option for h1 border:
+border: 20px ridge;
+*/
