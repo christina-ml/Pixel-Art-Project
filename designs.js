@@ -40,7 +40,8 @@ function makeGrid(row, col) {
 /*
 Making the submit button work with the height and width inputs:
 submit makes you click on the button for it to work; defines height variable;
-defines width variable; adds the current height/width values; stops the page from reloading instantly
+defines width variable; adds the current height/width values; stops the page from
+reloading instantly
 */
 document.addEventListener("submit", function(event){
     const row = document.getElementById("inputHeight").value;
