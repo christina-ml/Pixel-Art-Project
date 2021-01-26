@@ -6,7 +6,7 @@ row and column are parameters; creates the grid; selecting blank pixel canvas
 appends the new grid element to the pixel canvas; gets an element's HTML content,
 sets an element's HTML content
 */
-function makeGrid(row, col) {                                   
+function makeGrid(row, col) {
     const gridBody = document.createElement('gridBody');
     const blankCanvas = document.querySelector('#pixelCanvas');
     blankCanvas.appendChild(gridBody);
@@ -51,7 +51,7 @@ document.addEventListener("submit", function(event){
 
 
 // adding another button to save the current Hex # while coloring; color picked:
-hexColor.form.addEventListener('click', function write (e) {   
+hexColor.form.addEventListener('click', function write (e) {
     e.preventDefault();
     const colorfulColor = document.getElementById('colorPicker').value;
     var hexCode = document.createElement("INPUT");
@@ -59,7 +59,7 @@ hexColor.form.addEventListener('click', function write (e) {
     hexCode.setAttribute("value", " " + colorfulColor);
     document.body.appendChild(hexCode);
   });
-      
+
 
 /*
 1. Select color input
@@ -81,5 +81,3 @@ element.style.backgroundColor = "red";
 Text box example:
 https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_text_create
 */
-
-
