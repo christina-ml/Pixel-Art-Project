@@ -18,3 +18,4 @@ This repository is the starter code for _all_ Udacity students. Therefore, we mo
 ## View Pixel Art Maker
 
 View project here: [Pixel Art Maker](https://christina-ml.github.io/Pixel-Art-Project/)
+JavaScript.
